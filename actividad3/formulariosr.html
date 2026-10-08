@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <form action="" method="get">
+        
+        <!-- Formulario de registros de datos -->
+        <fieldset>
+            <legend>Datos personales</legend>
+            <p>
+                <label for="nombre">Nombre: </label>
+                <input type="text" id="txtNombre" name="txtNombre" required autofocus>
+            </p>
+            <p>
+                <label for="email">Correo electrónico: </label>
+                <input type="email" id="txtEmail" name="txtEmail" required>
+            </p>
+            <p>
+                <label for="url">URL: </label>
+                <input type="url" id="txtURL" name="txtURL" placeholder="Inserta la URL de tu página web " size= "90" >
+            </p>
+            <p>
+                <label for="sSiudad">Ciudad: </label>
+                <select id="sCiudad" name="ciudad">
+                    <option value="AL">Almería</option>
+                    <option value="CA">Cádiz</option>
+                    <option value="CO">Córdoba</option>
+                    <option value="GR">Granada</option>
+                    <option value="HU">Huelva</option>
+                    <option value="JA">Jaén</option>
+                    <option value="MA">Málaga</option>
+                    <option value="SE" selected>Sevilla</option>
+                </select>
+            </p>
+        </fieldset>
+        <p>
+        	<label>numero</label>
+        	<input type="number" max="10" min=" -10" size="8">
+        </p>
+        <!-- Grupo 2: Otros datos -->
+        <fieldset>
+            <legend>Otros datos</legend>
+            <p>
+                <label for="fecha">Fecha: </label>
+                <input type="date" id="fecha" name="fecha">
+            </p>
+            <p>
+                <label for="tiempo">Tiempo: </label>
+                <input type="time" id="tiempo" name="tiempo">
+            </p>
+            <p>
+                <label for="datetime">Fecha y hora: </label>
+                <input type="datetime" id="datetime" name="datetime">
+            </p>
+            <p>
+                <label for="mes">Mes: </label>
+                <input type="month" id="mes" name="mes">
+            </p>
+            <p>
+                <label for="semana">Semana: </label>
+                <input type="week" id="semana" name="semana">
+            </p>
+            <p>
+                <label for="numero">Número (min -10, max 10): </label>
+                <input type="number" id="numero" name="numero" min="-10" max="10" value="0">
+            </p>
+            <p>
+                <label for="telefono">Teléfono: </label>
+                <input type="tel" id="telefono" name="telefono">
+            </p>
+            <p>
+                <label for="busqueda">Término de búsqueda: </label>
+                <input type="search" id="busqueda" name="busqueda">
+            </p>
+            <p>
+                <label for="color">Color favorito: </label>
+                <input type="color" id="color" name="color" value="#000000">
+            </p>
+        </fieldset>
+
+        <!-- Grupo 3: Otros controles -->
+        <fieldset>
+            <legend>Otros controles</legend>
+            <p>
+                Aficiones
+                <input type="checkbox" id="cine" name="aficion_cine" value="1" checked>
+                <label for="cine">Cine</label>
+                <input type="checkbox" id="deporte" name="aficion_deporte" value="1">
+                <label for="deporte">Deporte</label>
+            </p>
+            <p>
+                Forma de pago<br>
+                <input type="radio" id="visa" name="optPago" value="V">
+                <label for="visa">Visa</label>
+                <input type="radio" id="amex" name="optPago" value="A">
+                <label for="amex">American Express</label>
+                <input type="radio" id="mastercard" name="optPago" value="M">
+                <label for="mastercard">MasterCard</p>
+        </fieldset>
+
+        <br>
+        <!-- Botones de acción -->
+        <input type="password" maxlength="10" minlength="6">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+
+    </form>
+
+</body>
+</html>
