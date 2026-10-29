@@ -1,0 +1,49 @@
+*{
+	box-sizing: border-box;
+	/*padding: 0;
+	margin: 0 ;*/
+}
+body{
+	margin: 0 auto;
+	width: 80%;
+	text-align: justify;
+	background-color: lightyellow;
+}
+
+
+
+
+header h1{
+	color:blue;font-family: Audiowide;
+	text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightpink;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: white;
+  color: red;
+}
+#destacado{
+	border: 2px dashed orange;
+	padding: 4px;
+}
+
