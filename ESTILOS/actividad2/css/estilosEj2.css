@@ -27,29 +27,6 @@
 }
 
 .caja3{
-	width: 40%;
-	text-align: justify;
-	background-color: white;
-	color: blue;
-}
-
-.caja4{
-	width: 40%;
-	text-align: justify;
-	background-color: white;
-	color: blue;
-}
-
-.caja5{
-	width: 40%;
-	text-align: justify;
-	background-color: white;
-	color: blue;
-}
-
-.caja6{
-	width: 40%;
-	text-align: justify;
 	background-color: white;
 	color: blue;
 }
@@ -61,4 +38,17 @@
 	position: absolute;
 	top: 0;
 	right: 0;
+}
+
+pre {
+	background-color: white;
+	border: blue 2px solid;
+
+
+}
+
+ #imgbolas {
+  border: 10px solid transparent; /* Required for border-image */
+  padding: 15px;
+  border-image: url(/home/sergio/web/ESTILOS/actividad2/img/bola-100.png) ;
 }
